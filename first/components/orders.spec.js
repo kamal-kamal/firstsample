@@ -6,7 +6,7 @@ describe('Test Cases for function ', () => {
   })
 
   it('first test case', () => {
-    const test = getAllOrders(5);
-    expect(test).toEqual(6);
+    const test = getAllOrders(8);
+    expect(test).toEqual(9);
   })
 })
